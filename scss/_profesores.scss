@@ -1,0 +1,103 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// estilos header profesores
+
+.header-profes{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        color: #141414;
+    }
+}
+
+// estilos main profesores
+
+.main-profes{
+    padding: 10px;
+    background-color: #faf5f5;
+    h3{
+        margin: revert;
+        text-align: center;
+        font-weight: bold;
+        font-family: revert;
+        font-size: 15px;
+        color: #080808;
+    }
+    p{
+        font-size: 11px;
+    }
+}
+
+@mixin estilo($size, $color) {
+    font-size: $size;
+    color: $color;
+}
+
+.main-profes section h5{
+    @include estilo(13px, #e01384);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+// ---------------------------------------------------------------------------
+
+@media screen and (min-width: 768px){
+    .img-fluid img{
+        width: -webkit-fill-available;
+    }
+}
+    .header-profes h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #141414;
+}
+/* estilos main profesores */
+    .main-profes{
+    padding: 15px;
+}
+    .main-profes h3{
+    font-size: 20px;
+}
+    .main-profes section h5{
+    font-size: 18px;
+}
+    .main-profes p{
+    font-size: 16px;
+}
+    .main-profes-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px){
+    .img-fluid img{
+        width: -webkit-fill-available;
+    }
+    .header-profes{
+        min-height: 600px;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header-profes h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color: #000000;
+    }
+    /* estilos main profesores */
+    .main-profes section img{
+        display: block;
+        margin: 0px auto;
+    }
+}
+

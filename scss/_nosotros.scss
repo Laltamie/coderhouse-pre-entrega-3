@@ -1,0 +1,65 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// estilos header historia
+
+.grid-hisotira{
+    background-color: #ffe5bd;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+.header-nosotros h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+// estilos main historia
+
+.tabla-historia{
+    padding: 1px 1px;
+    min-height: .01%;
+    overflow-x: auto;
+    text-align: center;
+
+    tbody{
+        min-height: .01%;
+        overflow-y: auto;
+    }
+    p{
+        font-size: 10px;;
+    }
+}
+.main-nosotros table{
+    border: none;
+    width: 100%;
+    td{
+        font-size: 20px;
+        line-height: 20px;
+        padding: 0 20px;
+        text-align: justify;
+        vertical-align: top;
+        width: 50%;
+        border: 1px solid black;
+    }
+}
+// ----------------------------------------------------------------------
+
+@media screen and (min-width: 768px){
+    .header-nosotros h1{
+        font-size: 25px;
+    }
+    /* estilos main historia */
+        .tabla-historia tbody p{
+        font-size: 15px;;
+    }
+        .tabla-historia th{
+        font-size: 20px;
+    }
+}

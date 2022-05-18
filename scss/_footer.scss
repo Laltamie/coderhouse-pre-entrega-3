@@ -1,0 +1,28 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// footer
+.mb-4{
+    height: 60px;
+    p{
+        font-size: 10px;
+    }
+}
+
+// ---------------------------------------------------------------
+   
+@media screen and (min-width: 768px){
+    .mb-4 p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .mb-4 p{
+        font-size: 20px;
+    }
+}
+
+

@@ -1,0 +1,139 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// estilos de header home 
+.header-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    background-color: #faf5f5 !important;
+    min-height: 400px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    p{
+        text-align: center;
+        max-width: 500px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+    }
+}
+// estilos main home
+.row {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    h5{
+        text-align: center;
+    }
+}
+
+.container div h4{
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.col img{
+    width: 510px;
+}
+.seccion-1-img1{
+    display: flex;
+    justify-content: center;
+    width: revert;
+}
+.seccion-1-img2{
+    display: flex;
+    justify-content: center;
+    width: revert;
+}
+.seccion-1-img3{
+    display: flex;
+    justify-content: center;
+    width: revert;
+}
+.seccion-1-img4{
+    display: flex;
+    justify-content: center;
+    width: revert;
+}
+.img-fluid img{
+    width: -webkit-fill-available;
+}
+.sedesHome-2 h4 {
+    @extend.titulo-h;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+// ---------------------------------------------------------------------------
+
+@media screen and (min-width: 768px) {
+
+    /* Estilos header home*/
+    .header-home{
+        display: grid;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-around;
+        background-color: #faf5f5;
+        min-height: 900px;
+    }
+    .header-home h1{
+        font-size: 30px;
+    }
+    .header-home p{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .header-home{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-around;
+        background-color: #faf5f5;
+        min-height: 600px;
+    }
+    .header-home h1{
+        font-size: 30px;
+    }
+    .header-home p{
+        font-size: 28px;
+    }
+    .header-home h1 img{
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1s;
+        animation-delay: 1s;
+
+    }
+}
+
+// ------------------- HOVER ------------------------------------
+.container img:hover{
+    filter: blur(5px);
+}
+
+$titulos-home: (
+    h: #070707,
+);
+
+@each $home, $color in $titulos-home{
+    .titulo-#{$home} {
+        color: $color;
+    }
+}
+
+
+
