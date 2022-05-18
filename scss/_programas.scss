@@ -5,13 +5,27 @@ body{
 }
 // estilos header programas
 
+.header-prog{
+    background-image: url(../multimedia/img/programas.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #faf5f5;
+}
+
 .header-home-programas{
     display: flex;
     flex-direction: column;
     height: 150px;
-    background-color: #f8abd6;
+
     h1{
+        font-size: 25px;
+        color: #fffaf0;
+    }
+    h4{
         font-size: 20px;
+        color: #fffaf0;
     }
     p{
         text-align: center;
@@ -24,27 +38,62 @@ body{
     padding: 15px;
     display: flex;
     flex-direction: column;
-}
-.seccion-programa-ministerial{
-    background-color: #e4e0e0;
-}
-.seccion-programa-teens{
-    background-color: #e4e0e0;
-}
-.seccion-programa-kids{
-    background-color: #e4e0e0;
-}
-.seccion-programa-personalizado{
-    background-color: #e4e0e0;
+    background-image: url(../multimedia/img/programas.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #faf5f5;
 }
 .main-programas h3{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    color: #8a2be2;
     p{
         text-align: left;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 13px;
+    }
+}
+.seccion-programa-ministerial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-teens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-kids{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-personalizado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
     }
 }
 .pregunta1{
@@ -92,7 +141,6 @@ body{
         justify-content: space-around;
         align-items: center;
         height: 150px;
-        background-color: #fdd5ec;
     }
     .header-home-programas h1{
         font-size: 35px;

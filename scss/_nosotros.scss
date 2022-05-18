@@ -4,9 +4,23 @@ body{
     box-sizing: border-box;
 }
 // estilos header historia
+.header-nosotros{
+    display: flex;
+    justify-content: center;
+
+    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .grid-hisotira{
-    background-color: #ffe5bd;
+    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: grid;
     grid-template-areas: 
     "header"
@@ -19,6 +33,7 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    color: #f0f8ff;
 }
 // estilos main historia
 
@@ -27,19 +42,23 @@ body{
     min-height: .01%;
     overflow-x: auto;
     text-align: center;
+    color: #f0f8ff;
 
     tbody{
         min-height: .01%;
         overflow-y: auto;
     }
     p{
-        font-size: 10px;;
+        font-size: 10px;
+        color: #f0f8ff;
     }
 }
-.main-nosotros table{
+
+table{
     border: none;
     width: 100%;
     td{
+        color: #f0f8ff;
         font-size: 20px;
         line-height: 20px;
         padding: 0 20px;
@@ -49,6 +68,7 @@ body{
         border: 1px solid black;
     }
 }
+
 // ----------------------------------------------------------------------
 
 @media screen and (min-width: 768px){

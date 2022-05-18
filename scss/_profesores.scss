@@ -8,6 +8,11 @@ body{
 .header-profes{
     display: flex;
     flex-direction: column;
+    background-image: url(../multimedia/img/header-profes.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
     h1{
         text-align: center;
@@ -15,12 +20,18 @@ body{
         font-size: 16px;
         color: #141414;
     }
+
 }
 
 // estilos main profesores
 
 .main-profes{
     padding: 10px;
+    background-image: url(../multimedia/img/header-profes.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: #faf5f5;
     h3{
         margin: revert;

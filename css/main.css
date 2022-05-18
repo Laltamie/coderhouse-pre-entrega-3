@@ -25,16 +25,29 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #faf5f5 !important;
+  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #faf5f5;
   min-height: 400px; }
   .header-home h1 {
     text-align: center;
-    font-size: 40px; }
+    font-size: 20px; }
   .header-home p {
     text-align: center;
     max-width: 500px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px; }
+
+.main-index {
+  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #faf5f5; }
 
 .row {
   width: auto;
@@ -77,6 +90,14 @@ body {
 
 .img-fluid img {
   width: -webkit-fill-available; }
+
+.sedesHome-2 {
+  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #faf5f5; }
 
 .sedesHome-2 h4 {
   padding: 20px 0;
@@ -128,41 +149,79 @@ body {
   margin: 0%;
   box-sizing: border-box; }
 
+.header-prog {
+  background-image: url(../multimedia/img/programas.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #faf5f5; }
+
 .header-home-programas {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  background-color: #f8abd6; }
+  height: 150px; }
   .header-home-programas h1 {
-    font-size: 20px; }
+    font-size: 25px;
+    color: #fffaf0; }
+  .header-home-programas h4 {
+    font-size: 20px;
+    color: #fffaf0; }
   .header-home-programas p {
     text-align: center; }
 
 .main-programas {
   padding: 15px;
   display: flex;
-  flex-direction: column; }
-
-.seccion-programa-ministerial {
-  background-color: #e4e0e0; }
-
-.seccion-programa-teens {
-  background-color: #e4e0e0; }
-
-.seccion-programa-kids {
-  background-color: #e4e0e0; }
-
-.seccion-programa-personalizado {
-  background-color: #e4e0e0; }
+  flex-direction: column;
+  background-image: url(../multimedia/img/programas.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #faf5f5; }
 
 .main-programas h3 {
   text-align: center;
   font-size: 15px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #8a2be2; }
   .main-programas h3 p {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px; }
+
+.seccion-programa-ministerial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .seccion-programa-ministerial p {
+    margin: 20px 20px; }
+
+.seccion-programa-teens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .seccion-programa-teens p {
+    margin: 20px 20px; }
+
+.seccion-programa-kids {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .seccion-programa-kids p {
+    margin: 20px 20px; }
+
+.seccion-programa-personalizado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .seccion-programa-personalizado p {
+    margin: 20px 20px; }
 
 .pregunta1 {
   font-weight: bold; }
@@ -205,8 +264,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
-    background-color: #fdd5ec; }
+    height: 150px; }
   .header-home-programas h1 {
     font-size: 35px; }
   .header-home-programas p {
@@ -229,7 +287,12 @@ body {
 
 .header-profes {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-image: url(../multimedia/img/header-profes.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
   .header-profes h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -238,6 +301,11 @@ body {
 
 .main-profes {
   padding: 10px;
+  background-image: url(../multimedia/img/header-profes.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #faf5f5; }
   .main-profes h3 {
     margin: revert;
@@ -312,6 +380,11 @@ body {
   justify-content: space-around;
   align-items: center;
   min-height: 50px;
+  background-image: url(../multimedia/img/header-gale.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #f7f5f5; }
   .header-galeria h1 {
     text-align: center;
@@ -319,6 +392,7 @@ body {
     font-size: 16px; }
 
 .main-galeria {
+  margin: 2px 2px;
   min-height: 250px; }
   .main-galeria h3 {
     text-align: center; }
@@ -336,31 +410,48 @@ body {
   margin: 0%;
   box-sizing: border-box; }
 
+.header-nosotros {
+  display: flex;
+  justify-content: center;
+  background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
 .grid-hisotira {
-  background-color: #ffe5bd;
+  background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   display: grid;
   grid-template-areas: "header" "nav" "main" "footer"; }
 
 .header-nosotros h1 {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #f0f8ff; }
 
 .tabla-historia {
   padding: 1px 1px;
   min-height: .01%;
   overflow-x: auto;
-  text-align: center; }
+  text-align: center;
+  color: #f0f8ff; }
   .tabla-historia tbody {
     min-height: .01%;
     overflow-y: auto; }
   .tabla-historia p {
-    font-size: 10px; }
+    font-size: 10px;
+    color: #f0f8ff; }
 
-.main-nosotros table {
+table {
   border: none;
   width: 100%; }
-  .main-nosotros table td {
+  table td {
+    color: #f0f8ff;
     font-size: 20px;
     line-height: 20px;
     padding: 0 20px;

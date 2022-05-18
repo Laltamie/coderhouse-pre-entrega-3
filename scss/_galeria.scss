@@ -10,6 +10,12 @@ body{
     justify-content: space-around;
     align-items: center;
     min-height: 50px;
+
+    background-image: url(../multimedia/img/header-gale.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: #f7f5f5;
     h1{
         text-align: center;
@@ -20,6 +26,7 @@ body{
 // estilos main galeria
 
 .main-galeria{
+    margin: 2px 2px;
     min-height: 250px;
     h3 {
         text-align: center;
