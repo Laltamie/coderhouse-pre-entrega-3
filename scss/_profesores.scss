@@ -17,7 +17,7 @@ body{
     h1{
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 16px;
+        font-size: $tamañoH1;
         color: #141414;
     }
 
@@ -66,7 +66,7 @@ body{
     .header-profes h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: $tamañoH1;
     color: #141414;
 }
 /* estilos main profesores */
@@ -102,7 +102,7 @@ body{
     .header-profes h1{
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 40px;
+        font-size: $tamañoH1;
         color: #000000;
     }
     /* estilos main profesores */

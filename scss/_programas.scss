@@ -20,11 +20,11 @@ body{
     height: 150px;
 
     h1{
-        font-size: 25px;
+        font-size: $tamañoH1;
         color: #fffaf0;
     }
     h4{
-        font-size: 20px;
+        font-size: 15px;
         color: #fffaf0;
     }
     p{
@@ -143,7 +143,7 @@ body{
         height: 150px;
     }
     .header-home-programas h1{
-        font-size: 35px;
+        font-size: 40px;
     }
     .header-home-programas p{
         text-align: center;
@@ -158,6 +158,10 @@ body{
 }
 @media screen and (min-width: 1024px){
     .main-programas h3{
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    .main-programas h1{
+        font-size: 45px;
     }
 }
